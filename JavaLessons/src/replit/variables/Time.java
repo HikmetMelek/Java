@@ -9,7 +9,7 @@ public class Time {
 		Scanner scan = new Scanner(System.in);
 		
 		System.out.println("Write hour ");
-		int hour= scan.nextInt();
+		 int hour= scan.nextInt();
 	    
 	    System.out.println("Write minute ");
 	    int minute = scan.nextInt();
@@ -21,7 +21,7 @@ public class Time {
 	    String amOrPm= scan.next();
 	    
 	    System.out.println(hour+":"+ minute + ":" + second+ " "+ amOrPm);
-	    
+   
 	    
 	    
 
