@@ -9,7 +9,7 @@ public class CaffeineOverDose {
 		Scanner sc= new Scanner(System.in);
 		System.out.println("Enter number of milligrams in drink:");
 		int milligrams=sc.nextInt();
-		int numOfMilligrams=;
+		int numOfMilligrams=10000/milligrams;
 		
 		//It would take about 10 drinks for a lethal overdose.
 		//10*1000 / numOfMilligrams
