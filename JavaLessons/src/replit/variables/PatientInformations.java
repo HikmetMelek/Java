@@ -9,10 +9,9 @@ public class PatientInformations {
 		String firstName, lastName, fullName, email, street, state, city, address, contacts;
 		int age, zipCode;
 		double height,weight;
-		boolean isMarried=true;
+		boolean isMarried;
 		long workPhoneNumber;
 		long personalPhoneNumber;
-		
 		
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Welcome to the patient portal!");
@@ -75,11 +74,8 @@ public class PatientInformations {
         System.out.println("Weight: "+weight+" pounds ");
         System.out.println("Married?: "+ isMarried);
         
-        
-        
-        
-        
-        
+                    
+                
 	}
 
 }
