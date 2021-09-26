@@ -28,9 +28,11 @@ public class VideoGameCoupon {
 			System.out.println("Number of Gumballs: "+gumball);
 			
 		}else if (coupon>=gumball && coupon<candy) {
-			coupon=coupon/gumball;
-			System.out.println("Number of Gumballs: "+coupon);
-		}else System.out.println("Not enough coupons");
+			gumball=coupon/gumball;
+		     candy=0;
+		     System.out.println("Number of Candies: "+candy);
+			 System.out.println("Number of Gumballs: "+gumball);
+			}else System.out.println("Not enough coupons");
 		
 		
 		
