@@ -16,7 +16,7 @@ public class Question_1 {
 		System.out.println("Enter gallon quantity:");
 		gallon=sc.nextInt();
 		
-		liter= gallon/0.26;
+		liter= gallon*3.76;
 		System.out.println(gallon+" gallon is "+liter);
 					
 	}
