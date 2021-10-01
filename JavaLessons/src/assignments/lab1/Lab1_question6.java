@@ -21,6 +21,21 @@ public class Lab1_question6 {
 		
 	}
 	
-	
-	
+//	OZZY result:
+//	public static void cigarParty(int numberCigar,boolean isWekeend) {
+//		
+//		if(isWekeend) {
+//			if(numberCigar>=40) {
+//				System.out.println(true);
+//			}else {
+//				System.out.println(false);
+//			}
+//		}else {
+//			if(numberCigar>=40 && numberCigar<=60) {
+//				System.out.println(true);
+//			}else {
+//				System.out.println(false);
+//			}
+//			
+//		}
 }

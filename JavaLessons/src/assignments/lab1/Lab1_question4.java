@@ -11,16 +11,33 @@ public class Lab1_question4 {
 	}
 	
 	public static void deerPlay(int temp, boolean isSummer) {
-		
-		//if (temp==100) System.out.println(isSummer);
-		//else if (temp==90) System.out.println(!isSummer);
+	
 		if (temp>=60 && temp<=90 && isSummer==false) System.out.println("true");
 		else if (temp>=60 && temp<=100 && isSummer==true) System.out.println("true");
 		else System.out.println("false");
 		
-	
 			
 	}
+	
+//	OZZY result:
+//		public static void deerPlay(int temp,boolean isSummer) {
+//		
+//		if(isSummer) {
+//			if(temp>60 && temp<100) {
+//				System.out.println(true);
+//			}else {
+//				System.out.println(false);
+//			}
+//		}else {
+//			if(temp>60 && temp<90) {
+//				System.out.println(true);
+//			}else {
+//				System.out.println(false);
+//			}
+//			
+//		}
+//		
+//	}
 		
 }
 		

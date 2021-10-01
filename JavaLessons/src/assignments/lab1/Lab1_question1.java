@@ -19,5 +19,21 @@ public class Lab1_question1 {
 		}
 		System.out.println();
 	}	
-
+	
+	// OZZY result:
+//	public static void stringTimes(String name, int num ) {   
+//		
+//		String str= "";
+//
+//		for(int i=0; i<num; i++) {
+//			
+//			str= str + name;
+//				
+//		}
+//		System.out.println(str);
+//	}	
+	
+	
+	
+	
 }
