@@ -6,6 +6,7 @@ public class Task_42_sumOfEvenAndOddNumbers {
 		
 		int sumEven =0;
 		int sumOdd =0;
+		
 		for (int i=1; i<100; i++) {
 			if (i%2==0) {
 				sumEven=sumEven+i;
