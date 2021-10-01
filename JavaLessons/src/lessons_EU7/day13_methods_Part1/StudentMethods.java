@@ -9,7 +9,6 @@ public class StudentMethods {
 		code();
 		study();
 		
-		
 	}
 	
 	
