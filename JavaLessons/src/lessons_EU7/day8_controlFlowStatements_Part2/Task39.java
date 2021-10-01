@@ -21,9 +21,10 @@ public class Task39 {
 		case 'G':
 			System.out.println("Greenn");
 			break;
-		default:
+		default: 
 			System.out.println("Invalid color");
-				
+			// at the end "using break" is not mandatory, while default is at the end line of cases.
+			
 		}
 
 	}

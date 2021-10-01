@@ -3,7 +3,7 @@ package lessons_EU7.day8_controlFlowStatements_Part2;
 public class SwitchCaseStatement {
 
 	public static void main(String[] args) {
-		
+		// switch cases is not work on boolean. case has to switch same expression..
 		String weather="snow";
 		
 		switch (weather) {
