@@ -1,5 +1,7 @@
 package replit;
 
+import java.util.Scanner;
+
 public class Replit_Basics {
 
 	public static void main(String[] args) {
@@ -19,12 +21,21 @@ public class Replit_Basics {
 	    
 	    System.out.println("===========================");
 	    
-	    String topic1= "Java", topic2= "SQL";
-	    System.out.println("I will learn \""+ topic1+"\" and \""+ topic2+"\" at CybertekSchool.");
+	    // Print Variable_7
 	    
+	    Scanner scan = new Scanner(System.in);
+	    System.out.println("What do you learn");
+	    String topic1 = scan.nextLine();
+	    String topic2 = scan.nextLine();
+
+	    if (topic1.equals("Java") && topic2.equals("SQL"))
 	    
+	    System.out.println("I will learn \""+ topic1+"\" and \""+ topic2+"\" at CybertekSchool.");  
+	   
 	    
+	   
 	    
+	   
 
 
 	}
