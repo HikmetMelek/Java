@@ -31,6 +31,7 @@ public class Question_6 {
 			number= secondNumber;
 			secondNumber= totalNumber;
 			
+			
 		}
 		
 		
