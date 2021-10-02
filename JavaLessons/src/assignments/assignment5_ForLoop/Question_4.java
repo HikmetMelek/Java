@@ -1,5 +1,7 @@
 package assignments.assignment5_ForLoop;
 
+import java.util.Scanner;
+
 public class Question_4 {
 
 	public static void main(String[] args) {
@@ -7,15 +9,17 @@ public class Question_4 {
 		//The number should be multiplied by 10, and the result stored in the variable product. 
 		//The loop should iterate as long as product contains a value less than 100.
 
-		int num=2;
+		Scanner scan= new Scanner(System.in);
+		System.out.println("Enter the number:");
+		int num=scan.nextInt();
+		
 		while(num<100) {
 			
 			num= num*10;
-			System.out.println(num);
-		}
+			num++;
 			
-		
-		
+		}System.out.println(num);
+				
 	}
 
 }

@@ -5,13 +5,13 @@ public class Question_11 {
 	public static void main(String[] args) {
 		// Print the following output using nested for loops.
 
-//		4       3       2      1
+//		  4     3     2    1
 //
-//   		  3       2      1
+//   		 3     2    1
 //		
-//       		  2       1
+//       		2     1
 //
-//            		  1
+//            	   1
 
 		for (int i=1; i<=4; i++) {
 			

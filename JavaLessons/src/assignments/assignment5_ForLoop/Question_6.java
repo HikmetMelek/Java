@@ -13,16 +13,17 @@ public class Question_6 {
 		int number=scan.nextInt();
 		
 		System.out.println("Enter the length of list: ");
-		int n=scan.nextInt(); 
+		int lenght=scan.nextInt(); 
 		
 		int secondNumber, totalNumber;
 		
 		if (number==0)  secondNumber= 1; 
+		
 		else  secondNumber= number;	
 		
 		System.out.print(number +", "+ secondNumber);
 		
-		for (int i=1; i<n-1; i++) {
+		for (int i=1; i<lenght-1; i++) {
 			
 			totalNumber= number + secondNumber;
 			

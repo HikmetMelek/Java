@@ -20,7 +20,7 @@ public class Question_9 {
 		
 		while (i<=end) {
 			
-			if (i%2!=0 && i==1) System.out.print(1);
+			if (i==1) System.out.print(1);
 			else if (i%2!=0) System.out.print(", "+i);	
 			
 			i++;
