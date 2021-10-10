@@ -9,6 +9,7 @@ public class PicturePrinter {
 		Scanner sc= new Scanner(System.in);
 		System.out.println("select image:\n1)sunset\n2)earth\n3)desert");
 		int image=sc.nextInt();
+		sc.close();
 		
 		switch(image) {
 		case 1:
