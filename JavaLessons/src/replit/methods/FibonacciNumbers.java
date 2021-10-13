@@ -22,11 +22,18 @@ public class FibonacciNumbers {
 			totalNumber= number + secondNumber;
 			number= secondNumber;
 			secondNumber= totalNumber;
-		
-			if (i==(num-1)) System.out.println(totalNumber);
 			
 		}
+			System.out.println(totalNumber);
+			
 			
 	}
-	
+//	 public static int fib(int n){     
+//	        
+//	 	if(n==1 || n==2) 
+//	    return 1;
+//	            
+//	    return fib(n-1) + fib(n-2);  
+//	 }
+//	
 }
