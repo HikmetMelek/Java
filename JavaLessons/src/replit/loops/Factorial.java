@@ -9,7 +9,7 @@ public class Factorial {
 		Scanner scan = new Scanner(System.in);
 	    System.out.println("Enter positive number");
 		int n = scan.nextInt();
-		
+		scan.close();
 		int factorial=1;
 		
 		for(int i=n; i>=1; i--) {
