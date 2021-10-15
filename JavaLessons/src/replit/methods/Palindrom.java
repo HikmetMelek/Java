@@ -20,7 +20,7 @@ public class Palindrom {
 	public static void isPalindrome (int num) {
 		
 		int ilkdeger = num; 
-	    int length = String.valueOf(num).length();
+	    int length = String.valueOf(num).length(); // I get some help.
 		int kalan,deger=0;
 		  
 			for (int i = 0; i<length; i++){
@@ -31,7 +31,7 @@ public class Palindrom {
 		   }   
 		
 			if (deger==ilkdeger) System.out.println(true);
-		else System.out.println(false);			
+			else System.out.println(false);			
 			
 	}
 
