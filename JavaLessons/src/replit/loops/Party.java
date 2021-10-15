@@ -25,7 +25,7 @@ public class Party {
 		
 		System.out.println("Guest's list: "+ list);
 		
-
+		input.close();
 	}
 
 }
