@@ -19,10 +19,13 @@ public class ShoppingList2 {
 			item = scan.nextLine();
 			price= scan.nextDouble();
 			totalPrice= totalPrice+price;
+			
 			System.out.println("Add one more item?");
 			countinue = scan.next();
+			
 			if(count!=1) shoppingListReport += ", "+"Item"+count+": "+item+ " Price: "+ price;
 			else shoppingListReport= "Item"+count+": "+item+ " Price: "+ price;
+			
 			count++;
 			scan.nextLine();
 		}while(countinue.equals("yes"));
