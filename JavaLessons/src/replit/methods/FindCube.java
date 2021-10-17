@@ -14,13 +14,13 @@ public class FindCube {
 		
 		Scanner sc= new Scanner(System.in);
 		System.out.println("enter the number: ");
-		int n=sc.nextInt();
+		int number= sc.nextInt();
 		sc.close();
 		int times=1;
 		
 		for (int i=1; i<=3; i++) {
 			
-			times = times*n;
+			times *= number;
 			
 		}
 		System.out.println(times);
