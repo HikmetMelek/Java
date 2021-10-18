@@ -20,7 +20,7 @@ public class TestCase {
 	
 	
 	public String toString() {
-		return "Project Name:            "+ projectName+"\n"+
+		return     "Project Name:            "+ projectName+"\n"+
 			   "Sprint No:               "+ sprintNo+"\n"+
 			   "Priority(High/Med/Low):  "+ testPriority+"\n"+
 			   "Designed by:             "+ designer+"\n"+
