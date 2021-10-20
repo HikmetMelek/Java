@@ -13,14 +13,11 @@ public class TestCase {
 	String testSteps;
 	String testCaseID;
 	String testStepDescription;
-//	String inputs;// test data
-//	String expectedResult;
-//	String actualResult;
 	boolean result; //(fail/pass)
 	
 	
 	public String toString() {
-		return     "Project Name:            "+ projectName+"\n"+
+		return "Project Name:            "+ projectName+"\n"+
 			   "Sprint No:               "+ sprintNo+"\n"+
 			   "Priority(High/Med/Low):  "+ testPriority+"\n"+
 			   "Designed by:             "+ designer+"\n"+
