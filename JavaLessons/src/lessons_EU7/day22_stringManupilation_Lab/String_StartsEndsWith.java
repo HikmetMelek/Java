@@ -1,6 +1,5 @@
 package lessons_EU7.day22_stringManupilation_Lab;
 
-import java.util.Scanner;
 
 public class String_StartsEndsWith {
 
