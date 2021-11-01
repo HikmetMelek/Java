@@ -14,8 +14,10 @@ public class MiddleOne {
 	    else if (word.length()==2) System.out.println(word.concat(word));
 	    else if (word.length()%2!=0) System.out.println(word.charAt(word.length()/2));
 	    else if (word.length()%2==0) {
-    		System.out.print(word.charAt(word.length()/2-1));
-    		System.out.println(word.charAt(word.length()/2));
+   
+	    	System.out.print(word.substring(word.length()/2-1, word.length()/2+1));
+	    	//System.out.print(word.charAt(word.length()/2-1));
+    		//System.out.println(word.charAt(word.length()/2));
     	
     	}
 	    
