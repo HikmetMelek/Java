@@ -13,9 +13,9 @@ public class WithoutX_x {
 	    
 //	    if ((word.substring(0, 1).equalsIgnoreCase("x")) && (Character.toUpperCase(word.charAt(word.length()-1))== 'X'))
 //	    	System.out.println(word.substring(1, word.length()-1));
-//	    else if (word.substring(0, 1).equalsIgnoreCase("x"))
+//	    if (word.substring(0, 1).equalsIgnoreCase("x"))
 //	    	System.out.println(word.substring(1));
-//	    else if (Character.toUpperCase(word.charAt(word.length()-1))== 'X')
+//	    if (Character.toUpperCase(word.charAt(word.length()-1))== 'X')
 //	    	System.out.println(word.substring(0, word.length()-1));
 // 		
 //	    else System.out.println(word);
