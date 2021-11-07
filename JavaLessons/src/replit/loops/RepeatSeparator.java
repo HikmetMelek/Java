@@ -12,15 +12,14 @@ public class RepeatSeparator {
 	    String word = scan.next();
 	    String separator = scan.next();
 	    int count = scan.nextInt();
-	    
+	    String result="";
 	    if (count==1)System.out.println(word);
 	    else {
-	    	for (int i=1; i<=count; i++) {
-	    	
-	    		word+= separator;
-	    		System.out.print(word);
+	    	for (int i=1; i<count; i++) {
+	    		result+=separator+word;
+	    		
 	    	}
-	    	
+	    	System.out.print(word+result);
 	    
 	    }
 	}
