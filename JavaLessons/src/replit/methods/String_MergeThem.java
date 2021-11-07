@@ -23,7 +23,7 @@ public class String_MergeThem {
 			for (int i=0; i<two.length(); i++) {
 				newWord+= one.charAt(i)+""+ two.charAt(i); 
 			}
-			newWord+= one.substring(one.length()-sub1, one.length());
+			newWord+= one.substring(one.length()-sub1);
 		return newWord;
 		}
 		
@@ -32,7 +32,7 @@ public class String_MergeThem {
 			for (int i=0; i<one.length(); i++) {
 				newWord+= one.charAt(i)+""+ two.charAt(i);  
 			}
-			newWord+= two.substring(two.length()-sub2, two.length());	
+			newWord+= two.substring(two.length()-sub2);	
 		return newWord;
 		}
 		
