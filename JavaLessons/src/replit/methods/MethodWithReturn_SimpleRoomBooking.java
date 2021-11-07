@@ -15,9 +15,9 @@ public class MethodWithReturn_SimpleRoomBooking {
 	public static boolean simpleRoomBook(boolean isAvailable,int day, int month, int year){
 		
 		if (year!=2018) return false;
-		else if ((month==1 && day>=7) || (month==8 && day<=7)) return false;
-		else if (month>1 && month<8) return false;
-		else if (!isAvailable) return false;
+		if ((month==1 && day>=7) || (month==8 && day<=7)) return false;
+		if (month>1 && month<8) return false;
+		if (!isAvailable) return false;
 		else return true;
 			
 		
