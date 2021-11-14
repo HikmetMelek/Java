@@ -27,4 +27,26 @@ public class Lab4_Q6 {
 		System.out.println(Arrays.toString(numbers));
 		
 	}
+	// OZZY result
+//	public static int[] maxEnd(int[] arr) {
+//		
+//		int max = arr[0];
+//		
+//		for(int i=0;i<arr.length-1;i++) {
+//			
+//			if(arr[i+1]>max) {
+//				
+//				max = arr[i+1];
+//				
+//				
+//			}
+//		}
+//		
+//		for(int i=0;i<arr.length;i++) {
+//			
+//			arr[i] = max;
+//		}
+//		
+//		return arr;
+//	}
 }
