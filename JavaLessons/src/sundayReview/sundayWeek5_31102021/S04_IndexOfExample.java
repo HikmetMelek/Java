@@ -1,0 +1,21 @@
+package lessons_EU7.sundayReview.sundayWeek5_31102021;
+
+public class S04_IndexOfExample {
+
+	public static void main(String[] args) {
+		
+		String message = "Java is Awesome!  Akgkf !!  AA kgfkdls!";
+		
+		// this method takes a String and returns it's index
+		
+		int begining = message.indexOf("Awe");
+		int ending = message.indexOf("me!")+2;
+		
+		String word = message.substring(begining,ending);
+		
+		System.out.println(word);
+		
+
+	}
+
+}
