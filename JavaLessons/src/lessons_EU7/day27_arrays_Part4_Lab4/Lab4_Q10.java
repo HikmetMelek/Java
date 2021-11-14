@@ -35,4 +35,19 @@ public class Lab4_Q10 {
 		else return false;
 		
 	}
+	/*
+		for(int each: numbers) {
+			if(each==2)  counter1++;
+			else if (each==3) counter2++;
+		}
+		if (counter1==2 || counter2==2) return true;
+		else return false;
+		
+		*/
+	
+	
+	
+	
+	
+	
 }
