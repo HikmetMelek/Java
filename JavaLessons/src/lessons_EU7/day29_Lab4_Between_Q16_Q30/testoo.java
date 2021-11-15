@@ -4,7 +4,12 @@ import java.util.Arrays;
 
 public class testoo {
 
+	private static final int[] a = null;
 	public static void main(String[] args) {
+		int[] add= {5,10};
+		int over= add[1]-add[0];
+		System.out.println(over);
+		
 		
 		int[] x = {1, 2, 2, 6, 99, 99,7, 2, 3};
 		int sum = 0;
@@ -32,9 +37,9 @@ public class testoo {
 			}
 		}
 		
-		System.out.println(sum);
-		
-		
-		
+		System.out.println(sum);	
 	}
+	
+	
+	
 }
