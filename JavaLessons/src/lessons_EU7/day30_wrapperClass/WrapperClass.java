@@ -5,7 +5,7 @@ public class WrapperClass {
 	public static void main(String[] args) {
 		
 		int n1= 10;
-		Integer n2= new Integer(10);// because of java version old. no problem
+		Integer n2= new Integer(10);// because of java version is old. no problem
 		Integer n3= Integer.valueOf(10);
 		System.out.println(n1);
 		System.out.println(n2); // n2 is a object
@@ -26,7 +26,7 @@ public class WrapperClass {
 		
 		byte b1= 100;
 		Byte b2= new Byte("100");
-		Byte b3= new Byte((byte)100);
+		Byte b3= new Byte((byte)100);// cause of 100--> int
 		System.out.println(b1);
 		System.out.println(b2);
 		System.out.println(b3);

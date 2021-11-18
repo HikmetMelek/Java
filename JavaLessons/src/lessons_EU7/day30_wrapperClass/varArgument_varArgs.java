@@ -4,7 +4,7 @@ public class varArgument_varArgs {
 
 	public static void main(String[] args) {
 		
-		sum(2, 4);
+		sum(2,4);
 		sum2(2,3,5,6);
 		concat("apple", "orange", "123");
 		

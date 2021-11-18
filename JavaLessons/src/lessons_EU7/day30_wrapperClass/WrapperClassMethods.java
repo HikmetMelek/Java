@@ -26,6 +26,7 @@ public class WrapperClassMethods {
 		System.out.println(Character.isDigit('p'));
 		
 		System.out.println("-----------------");
+		
 		String word = "java101";
 		System.out.println(Character.isAlphabetic(word.charAt(0)));
 		System.out.println(Character.isDigit(word.charAt(6)));

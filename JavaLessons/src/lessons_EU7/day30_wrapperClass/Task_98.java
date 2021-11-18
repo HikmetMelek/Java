@@ -22,12 +22,12 @@ public class Task_98 {
 		code= code.toLowerCase();
 		String[] arr= code.split(" ");
 		
-		String element="";
+		String element=" ";
 		for (int i=0; i< arr.length; i++){
 			
 			switch (arr[i]){
 			
-			case "ZERO":
+			case "zero":
 				element+=0+" ";
 				break;
 			case "one":
