@@ -6,14 +6,11 @@ public class Q2_Multiply19 {
 
 		int[] arr= new int[10];
 		for (int i=0; i<arr.length; i++) {
-			arr[i]=i+1;
-		}
-		
-		for(int i=0; i< arr.length; i++) {
-			arr[i]= arr[i]*19;
+			arr[i]=(i+1)*19;
 			System.out.println(arr[i]);
 		}
-
+		
+	
 	}
 
 }
