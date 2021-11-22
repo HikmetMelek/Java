@@ -1,0 +1,57 @@
+	Press
+		 0 - To print choice options.
+		 1 - To print the list of grocery items.
+		 2 - To add an item to the list.
+		 3 - To modify an item in the list.
+		 4 - To remove an item from the list.
+		 5 - To search an item from the list.
+		 6 - To quit the application.
+	Enter your choice: 0
+	
+	Press
+		 0 - To print choice options.
+		 1 - To print the list of grocery items.
+		 2 - To add an item to the list.
+		 3 - To modify an item in the list.
+		 4 - To remove an item from the list.
+		 5 - To search an item from the list.
+		 6 - To quit the application.
+	Enter your choice: 1
+	You have 0 items in your grocery list
+	Enter your choice: 2
+	Please enter the grocery item: 
+	milk
+	Enter your choice: 2
+	Please enter the grocery item: 
+	bread
+	Enter your choice: 2
+	Please enter the grocery item: 
+	sugar
+	Enter your choice: 1
+	You have 3 items in your grocery list
+	1. milk
+	2. bread
+	3. sugar
+	Enter your choice: 3
+	Enter item number: 
+	1
+	Enter replacement item: 
+	water
+	Grocery item 1 has been modified
+	Enter your choice: 1
+	You have 3 items in your grocery list
+	1. water
+	2. bread
+	3. sugar
+	Enter your choice: 4
+	Enter item number: 
+	2
+	Enter your choice: 1
+	You have 2 items in your grocery list
+	1. water
+	2. bread
+	Enter your choice: 5
+	Item to search for: 
+	water
+	Found water in our grocery list
+	Enter your choice: 6				 
