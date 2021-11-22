@@ -23,7 +23,7 @@ public class RemoveInteger {
 		System.out.println(nums.size()); //size:7
 		System.out.println(nums.toString()); // it is array list
 		
-		nums.remove(5); // index of nums: 5. index // //removes the spficied index number from the list
+		nums.remove(5); // index of nums: 5. index // //removes the specified index number from the list
 		System.out.println(nums.toString()); // 100 is gone
 		
 		System.out.println("---------------");

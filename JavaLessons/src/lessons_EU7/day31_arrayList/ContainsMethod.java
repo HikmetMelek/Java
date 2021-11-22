@@ -17,7 +17,7 @@ public class ContainsMethod {
 		
 		System.out.println(list1.toString());
 		
-		ArrayList<String> list2=list1;
+		ArrayList<String> list2=list1; // list1 exactly same with list2
 		
 		// copy all values from list1
 		ArrayList<String> months = new ArrayList<String>(list1); // only copy to (list1) -->: list1 has same items

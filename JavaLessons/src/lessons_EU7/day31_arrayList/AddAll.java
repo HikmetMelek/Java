@@ -14,7 +14,7 @@ public class AddAll {
 		l2.add("C#");
 		l2.add("C++");
 		
-		System.out.println(l1.toString());
+		System.out.println(l1);
 		System.out.println(l2.toString());
 		
 		l2.addAll(l1);

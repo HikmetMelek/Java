@@ -47,7 +47,7 @@ public class Cities {
 		System.out.println("\n--------------");
 		
 		int idx= cities.indexOf("Istanbul");
-		System.out.println(idx);
+		System.out.println("idx: "+idx);
 		
 		System.out.println(cities.indexOf("Bursa"));
 		
