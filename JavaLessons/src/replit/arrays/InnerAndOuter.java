@@ -41,7 +41,6 @@ public class InnerAndOuter {
 		}
 		
 		System.out.println(result);	
-		
 						
 	  }
 
