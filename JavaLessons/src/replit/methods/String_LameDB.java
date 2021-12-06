@@ -46,6 +46,35 @@ public class String_LameDB {
 		  
 		 return change; 
 		  
-		
+//		 String sum = "";
+//	        
+//		 Integer idInt = Integer.parseInt(id);
+//		 String[] arr = db.split("#");
+//		 String[] arrAdd = new String[arr.length+1];
+//		 String[] arrDel = new String[arr.length-1];
+//		         
+//		 if(op.equals("add")) {
+//		   for(int i=0; i<arrAdd.length; i++) {
+//		     if(idInt-1 > i) {
+//		       arrAdd[i] = arr[i].substring(1,arr[i].length());
+//		     }else if(idInt-1 == i) {
+//		       arrAdd[i] = data;
+//		     } else {
+//		       arrAdd[i] = arr[i-1].substring(1,arr[i-1].length());
+//		     }
+//		   }
+//		             
+//		     for(int i=0; i<arrAdd.length; i++) {
+//		       if(i+1==1) {
+//		         sum += (i+1) + arrAdd[i];
+//		       } else {
+//		         sum += "#" + (i+1) + arrAdd[i];
+//		       }
+//		     }
+//		             
+//		   return sum;            
+//
+//		 } 
 	  }
+	  
 }
