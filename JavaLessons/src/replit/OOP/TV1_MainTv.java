@@ -16,7 +16,7 @@ public class TV1_MainTv {
         tv2.setChannel(in.nextInt());
         tv2.setVolumeLevel(in.nextInt());
         tv2.volumeUp();
-        System.out.println(tv2.getVolumeLevel());
+
     }
 
 }
