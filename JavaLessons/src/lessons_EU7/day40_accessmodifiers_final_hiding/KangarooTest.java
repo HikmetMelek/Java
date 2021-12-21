@@ -5,7 +5,12 @@ public class KangarooTest {
 
         Kangaroo k= new Kangaroo();
 
-        k.getMarsupialDescription();
+        k.getMarsupialDescription();// boolean static olmasaydı method override olurdu, bu da sonucu etkilerdi.
+        // override olsaydı sout: Marsupial walks on the two legs: true olurdu. k objesi once kangaroo class a gidiyor
+        // sonra parent a gidiyor. k.getMarsupialDescription() ile önce parent daki isBiped() olusuyor sonra override ile
+        // child class a gelince isBiped ile true olusuyor.
+
+        // static olunca hiding oluyor ve meyhod sadece kendi class icindeki metodu okuyor.--> Marsupial walks on the two legs: false
 
         k.getKangarooDescription();
 
