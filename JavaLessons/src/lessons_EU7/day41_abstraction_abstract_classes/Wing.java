@@ -1,6 +1,10 @@
 package lessons_EU7.day41_abstraction_abstract_classes;
 
-public class Wing extends Bird{  // Animal --> Bird --> Wing (Wing extends Bird extends Animal)
+public class Wing extends Bird{
+    public Wing(String name) {
+        super(name);
+    }
+                                   // Animal --> Bird --> Wing (Wing extends Bird extends Animal)
                                   //  Bird needs to implement abstract methods(override abstract class). it is first concrete class
                                   //  But Wing Class do not need to implement abstract methods, it is second class
 
@@ -10,8 +14,8 @@ public class Wing extends Bird{  // Animal --> Bird --> Wing (Wing extends Bird 
 
 
     @Override
-    public void eat() {
-
+    public int eat(String x) {
+        return 0;
     }
 
     @Override

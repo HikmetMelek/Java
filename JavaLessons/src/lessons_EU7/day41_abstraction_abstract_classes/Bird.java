@@ -7,9 +7,13 @@ public abstract class Bird extends Animal{  // Bird Class: first concrete class 
         System.out.println("Bird eating");
     }
 */
+
+    public Bird(String name){
+        super(name);
+    }
     @Override
     public void move() {
-        System.out.println("Bird moving");
+        System.out.println("Bird moving"); // coding // implementation in first class
     }
 
     public abstract void fly();
