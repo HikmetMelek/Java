@@ -8,6 +8,6 @@ public class Mouse extends Rodent{
         System.out.println("tail:" + tailLength + ",parentTail:" + super.tailLength);
     }
 
-
+// if u want to print Rodent tailLength in Mouse class u have to use super.tailLength; because of hiding
 
 }
