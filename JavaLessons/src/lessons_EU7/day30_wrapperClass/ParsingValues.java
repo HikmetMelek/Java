@@ -20,7 +20,7 @@ public class ParsingValues {
 		
 		int i=10;
 		String s= String.valueOf(i);
-		System.out.println(s);   // it will return 10 as string
+		System.out.println(s);   // it will return 10 as string(String.valueOf)
 		System.out.println(s+2);
 		
 		String s2= Integer.toString(i);
