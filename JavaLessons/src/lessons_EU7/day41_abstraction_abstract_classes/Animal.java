@@ -33,11 +33,4 @@ public abstract class Animal {   // abstract class can have abstract method and 
 
 
 
-
-
-
-
-
-
-
 }
