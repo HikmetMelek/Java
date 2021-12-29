@@ -17,8 +17,19 @@ public class CallCenter_Test {
         VoiceCallable.decline();
         System.out.println(VoiceCallable.CAN_CALL);
 
-       MessagingApp.setCount(4);
+        MessagingApp.setCount(4);
         System.out.println(wa.getCount());
+
+        System.out.println("----------polymorphism----------");
+        VoiceCallable obj= new WhatsApp();
+        ((WhatsApp) obj).launch();
+        ((MessagingApp) obj).allOSCompatible=false;
+        obj.call("Mr. Jim");
+
+        ((WhatsApp) obj).videoCall();
+
+        ((VideoCallable) obj).videoCall();
+
 
 
 

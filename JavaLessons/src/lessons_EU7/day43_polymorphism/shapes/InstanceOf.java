@@ -1,4 +1,9 @@
-package lessons_EU7.day43_polymorphism;
+package lessons_EU7.day43_polymorphism.shapes;
+
+import lessons_EU7.day43_polymorphism.shapes.Circle;
+import lessons_EU7.day43_polymorphism.shapes.Shape;
+import lessons_EU7.day43_polymorphism.shapes.Square;
+import lessons_EU7.day43_polymorphism.shapes.Triangle;
 
 import java.util.ArrayList;
 import java.util.List;

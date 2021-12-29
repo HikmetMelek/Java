@@ -1,4 +1,4 @@
-package lessons_EU7.day43_polymorphism;
+package lessons_EU7.day43_polymorphism.shapes;
 
 public class Shape {
 

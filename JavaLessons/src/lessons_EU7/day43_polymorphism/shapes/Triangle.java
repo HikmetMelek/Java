@@ -1,6 +1,6 @@
-package lessons_EU7.day43_polymorphism;
+package lessons_EU7.day43_polymorphism.shapes;
 
-public class Triangle extends Shape{
+public class Triangle extends Shape {
 /*
     @Override
     public void draw() {

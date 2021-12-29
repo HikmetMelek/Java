@@ -1,4 +1,4 @@
-package lessons_EU7.day43_polymorphism;
+package lessons_EU7.day43_polymorphism.AppDevice;
 
 public class AppleStore_Main {
     public static void main(String[] args) {

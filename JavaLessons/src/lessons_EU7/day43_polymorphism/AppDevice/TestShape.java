@@ -1,4 +1,8 @@
-package lessons_EU7.day43_polymorphism;
+package lessons_EU7.day43_polymorphism.AppDevice;
+
+import lessons_EU7.day43_polymorphism.shapes.Circle;
+import lessons_EU7.day43_polymorphism.shapes.Shape;
+import lessons_EU7.day43_polymorphism.shapes.Triangle;
 
 public class TestShape {
     public static void main(String[] args) {

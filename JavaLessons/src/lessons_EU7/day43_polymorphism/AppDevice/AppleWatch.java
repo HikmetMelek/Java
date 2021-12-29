@@ -1,6 +1,6 @@
-package lessons_EU7.day43_polymorphism;
+package lessons_EU7.day43_polymorphism.AppDevice;
 
-public class AppleWatch extends AppleDevices{
+public class AppleWatch extends AppleDevices {
     @Override
     public void use() {
         System.out.println("it is watch");

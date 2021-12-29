@@ -1,6 +1,6 @@
-package lessons_EU7.day43_polymorphism;
+package lessons_EU7.day43_polymorphism.AppDevice;
 
-public class Mac extends AppleDevices{
+public class Mac extends AppleDevices {
     @Override
     public void use() {
         System.out.println("it is mac");

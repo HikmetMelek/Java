@@ -1,6 +1,6 @@
-package lessons_EU7.day43_polymorphism;
+package lessons_EU7.day43_polymorphism.AppDevice;
 
-public class Ipad extends AppleDevices{
+public class Ipad extends AppleDevices {
     @Override
     public void use() {
         System.out.println("it is ipad");
