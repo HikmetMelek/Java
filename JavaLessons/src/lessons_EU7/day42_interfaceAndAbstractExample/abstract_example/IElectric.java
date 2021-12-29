@@ -8,7 +8,7 @@ public interface IElectric { // interface have 3 method type: abstract(without b
 
     public abstract void charge();
 
-    void charge2(); // public abstract , u write public or do not write methods are public. because interface is public
+    void charge2(); // public abstract , u write public abstract or do not write methods are public. because interface is public abstract
 
     public default void methodA(){
         //implementation/coding
