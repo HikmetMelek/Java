@@ -3,15 +3,15 @@ package assignments.assignmentOnOOPConsept.Q2;
 public class LameCalculator {
 
 
-	public int plus(int x, int y){
+	public static int plus(int x, int y){
 		return x+y;
 	}
 
-	public int minus (int x, int y) {
+	public static int minus (int x, int y) {
 		return x-y;
 	}
 
-	public int multiply (int x, int y) {
+	public static int multiply (int x, int y) {
 		return x*y;
 	}
 
