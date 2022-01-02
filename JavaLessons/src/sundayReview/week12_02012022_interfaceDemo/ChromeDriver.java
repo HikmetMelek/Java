@@ -1,6 +1,8 @@
 package sundayReview.week12_02012022_interfaceDemo;
 
-public class ChromeDriver implements WebDriver{
+import sundayReview.week12_02012022_interfaceDemo.WebDriver;
+
+public class ChromeDriver implements WebDriver {
 
     public ChromeDriver(){
         System.out.println("launching chrome browser");
@@ -24,5 +26,9 @@ public class ChromeDriver implements WebDriver{
     @Override
     public String getTitle() {
         return "EU7 is the greatest";
+    }
+
+    public void uniqueMethodOfChrome(){
+        System.out.println("only in chrome");
     }
 }

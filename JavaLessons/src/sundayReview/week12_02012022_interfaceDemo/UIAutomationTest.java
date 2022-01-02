@@ -2,7 +2,6 @@ package sundayReview.week12_02012022_interfaceDemo;
 
 public class UIAutomationTest {
     public static void main(String[] args) {
-     //   WebDriver driver= new ChromeDriver();// polymorphic way
 
         ChromeDriver driver1= new ChromeDriver();
 
@@ -19,7 +18,18 @@ public class UIAutomationTest {
         System.out.println(driver2.getTitle());
         driver2.quit();
 
+        System.out.println("====================================");
+        WebDriver driver= new ChromeDriver();// polymorphic way
+        driver.get("http://practice.cybertekschool.com/");
+        driver.quit();
 
+        driver= new FrieFoxDriver();
+        driver.get("http://practice.cybertekschool.com/");
+        driver.quit();
+
+        System.out.println("************Down Casting***************");
+        driver= new ChromeDriver();
+        ((ChromeDriver)driver).uniqueMethodOfChrome();
 
 
 

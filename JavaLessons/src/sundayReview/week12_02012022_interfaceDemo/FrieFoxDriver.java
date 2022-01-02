@@ -1,6 +1,8 @@
 package sundayReview.week12_02012022_interfaceDemo;
 
-public class FrieFoxDriver implements WebDriver{
+import sundayReview.week12_02012022_interfaceDemo.WebDriver;
+
+public class FrieFoxDriver implements WebDriver {
     public FrieFoxDriver() {
         System.out.println("launching firefox browser");
     }
