@@ -1,6 +1,7 @@
 package lessons_EU7.day42_interfaceAndAbstractExample.abstract_example;
 
 public class ElectricCarTest {
+
     public static void main(String[] args) {
 
         //ElectricCar ec = new ElectricCar(); ERROR- can not be instantiated
@@ -42,6 +43,11 @@ public class ElectricCarTest {
         System.out.println(fusion.toString());
         System.out.println(semi.toString());
         System.out.println(tr.toString());
+
+        System.out.println("=============Oscar week12================");
+        System.out.println(IElectric.methodB());
+        Tesla2 teslaObj= new Tesla2();
+        teslaObj.methodA(); // default method
 
 
     }

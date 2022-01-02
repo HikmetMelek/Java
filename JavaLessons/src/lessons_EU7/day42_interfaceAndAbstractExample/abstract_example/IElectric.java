@@ -12,6 +12,7 @@ public interface IElectric { // interface have 3 method type: abstract(without b
 
     public default void methodA(){
         //implementation/coding
+        System.out.println("default method in interface");
     }
 
     public static int methodB(){
