@@ -20,13 +20,14 @@ public class ShapeManager {
                 shape = new Diamond();
                 break;
             case "square":
-                shape = new Square();
+                shape = new Square(); // Shape shape= new Square();
                 break;
         }
 
         return shape;
     }
     public static void drawSquare(Square squareObject) {
+
         squareObject.draw();
     }
 

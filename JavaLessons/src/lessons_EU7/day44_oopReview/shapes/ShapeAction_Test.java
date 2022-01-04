@@ -5,15 +5,16 @@ import lessons_EU7.day44_oopReview.ShapeManager;
 import java.util.ArrayList;
 import java.util.List;
 
+import static lessons_EU7.day44_oopReview.ShapeManager.buildShape;
 import static lessons_EU7.day44_oopReview.ShapeManager.drawShape;
 
 public class ShapeAction_Test {
 
     public static void main(String[] args) {
 
-        ShapeManager.drawSquare((Square)ShapeManager.buildShape("square")); //buildshape return: Shape shape= new Square();
+    //    ShapeManager.drawSquare((Square)ShapeManager.buildShape("square")); //buildshape return: Shape shape= new Square();
 
-
+        ShapeManager.drawSquare((Square) ShapeManager.buildShape("square"));
         System.out.println("-------------");
 
         List<Shape> myList = new ArrayList<>();

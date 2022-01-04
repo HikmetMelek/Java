@@ -15,10 +15,8 @@ public class ShapesArray{
         for (Shape i: shapes){
         //  System.out.println(i.getClass().getName());
             System.out.println(i.getClass().getSimpleName());
-        //  i.draw();
+            i.draw();
         }
-
-
 
     }
 }
