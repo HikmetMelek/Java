@@ -59,6 +59,7 @@ public class LoopWithIterator {
                 cities.remove(city); // you can not remove obj in for each loop. you get exception
             }
         }
+        System.out.println(cities);
 
 
 
