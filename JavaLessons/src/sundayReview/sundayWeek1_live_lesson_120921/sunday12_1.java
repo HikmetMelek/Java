@@ -1,4 +1,4 @@
-package lessons_EU7.sundayReview.sundayWeek1_live_lesson_120921;
+package sundayReview.sundayWeek1_live_lesson_120921;
 
 public class sunday12_1 {
 

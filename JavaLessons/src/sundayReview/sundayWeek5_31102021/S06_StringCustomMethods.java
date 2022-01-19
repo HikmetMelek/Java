@@ -1,8 +1,8 @@
-package lessons_EU7.sundayReview.sundayWeek5_31102021;
+package sundayReview.sundayWeek5_31102021;
 
 public class S06_StringCustomMethods {
 
-	String str;
+	public String str;
 	
 	public void setStr(String s) {
 		if (s.isEmpty()) {
