@@ -1,4 +1,6 @@
-package lessons_EU7.sundayReview.week09_05122021;
+package sundayReview.week09_05122021;
+
+import sundayReview.week09_05122021.StaticMethods;
 
 public class Test_StaticMethods {
 

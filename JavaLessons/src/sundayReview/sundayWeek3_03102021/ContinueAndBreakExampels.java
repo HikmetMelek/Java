@@ -1,4 +1,4 @@
-package lessons_EU7.sundayReview.sundayWeek3_03102021;
+package sundayReview.sundayWeek3_03102021;
 
 public class ContinueAndBreakExampels {
 

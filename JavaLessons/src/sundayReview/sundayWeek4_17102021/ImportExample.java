@@ -1,6 +1,6 @@
-package lessons_EU7.sundayReview.sundayWeek4_17102021;
+package sundayReview.sundayWeek4_17102021;
 
-import lessons_EU7.sundayReview.sundayWeek3_03102021.CustomMethods3;
+import sundayReview.sundayWeek3_03102021.CustomMethods3;
 
 public class ImportExample {
 

@@ -1,4 +1,4 @@
-package lessons_EU7.sundayReview.sundayWeek2_live_lesson_190921;
+package sundayReview.sundayWeek2_live_lesson_190921;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package lessons_EU7.sundayReview.sundayWeek6_14112021;
+package sundayReview.sundayWeek6_14112021;
 
 import java.util.Arrays;
 
@@ -38,7 +38,7 @@ public class A05_MallShoppingAppTest {
 		
 		for (int i=0; i<items.length; i++) {
 			
-			System.out.println(items[i]+" - "+ prices[i]+ "£ - #"+itemIDs[i] );
+			System.out.println(items[i]+" - "+ prices[i]+ "£ -#"+itemIDs[i] );
 		}
 		
 		System.out.println("---------------");

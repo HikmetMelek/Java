@@ -1,4 +1,4 @@
-package lessons_EU7.sundayReview.sundayWeek6_14112021;
+package sundayReview.sundayWeek6_14112021;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package lessons_EU7.sundayReview.sundayWeek4_17102021;
+package sundayReview.sundayWeek4_17102021;
 
 public class BankAccount {
 	
@@ -6,7 +6,7 @@ public class BankAccount {
 	int pin;
 	double balance;
 	long accountNumber;
-	
+
 	public double getBalance(int inputPin) {
 		if (pin==inputPin) return balance;
 		else return -1;

@@ -1,4 +1,4 @@
-package lessons_EU7.sundayReview.sundayWeek5_31102021;
+package sundayReview.sundayWeek5_31102021;
 
 public class S01_StringPractice {
 

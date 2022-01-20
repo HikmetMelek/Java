@@ -6,7 +6,7 @@ public class CircleTest {
 
 //		Syntax:   ClassName objectName = new ClassName();
 		
-			lessons_EU7.sundayReview.sundayWeek4_17102021.Circle circle1 = new lessons_EU7.sundayReview.sundayWeek4_17102021.Circle();
+		Circle circle1 = new Circle();
 			
 			System.out.println(circle1.radius);
 			
@@ -14,7 +14,7 @@ public class CircleTest {
 			System.out.println(circle1.area()); // I call the methods with the object name
 			System.out.println(circle1.perimeter());
 			
-			lessons_EU7.sundayReview.sundayWeek4_17102021.Circle circle2 = new lessons_EU7.sundayReview.sundayWeek4_17102021.Circle();
+			Circle circle2 = new Circle();
 			circle2.radius=10.0;
 			System.out.println(circle2.area());
 			System.out.println(circle2.perimeter());
