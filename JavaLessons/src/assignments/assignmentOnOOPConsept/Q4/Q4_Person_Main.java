@@ -23,7 +23,6 @@ public class Q4_Person_Main {
 		System.out.println(person2.getLastName()); //"Lee"
 		System.out.println(person2.getAge()); // 22
 		System.out.println(person2.toString()); //"Fatima | Lee | 22"
-
 	}
 
 }

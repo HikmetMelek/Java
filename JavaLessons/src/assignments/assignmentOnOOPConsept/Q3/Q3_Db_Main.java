@@ -15,9 +15,7 @@ public class Q3_Db_Main {
 
 		System.out.println(db.getData());//zzz
 		System.out.println(db.getYint());//200
-		
-		
-		
-		
+
 	}
+
 }

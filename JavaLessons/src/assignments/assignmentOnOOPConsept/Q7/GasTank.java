@@ -39,4 +39,5 @@ public class GasTank {
         return capacity= capacity-amount;
     }
 
+
 }

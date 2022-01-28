@@ -4,15 +4,13 @@ public class Person {
 	private String firstName;
 	private String lastName;
 	private int age;
-	
-	
+
 	public Person() {
 		firstName="undefined";
 		lastName= "undefined";
 		age=-1;	
 	}
-	
-	
+
 	public Person(String firstName, String lastName, int age) {
 		this.firstName = firstName;
 		this.lastName = lastName;

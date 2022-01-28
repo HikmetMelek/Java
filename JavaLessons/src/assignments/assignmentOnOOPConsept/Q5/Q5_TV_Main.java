@@ -20,8 +20,6 @@ public class Q5_TV_Main {
 		tv2.setVolumeLevel(in.nextInt());
 		tv2.volumeUp();
 
-
-
 	}
 
 }

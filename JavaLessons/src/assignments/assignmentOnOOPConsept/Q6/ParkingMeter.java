@@ -32,9 +32,5 @@ public class ParkingMeter {
 		else return false;	
 	}
 	
-	
-	
-	
-	
-	
+
 }

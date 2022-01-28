@@ -2,7 +2,6 @@ package assignments.assignmentOnOOPConsept.Q2;
 
 public class LameCalculator {
 
-
 	public static int plus(int x, int y){
 		return x+y;
 	}
@@ -18,9 +17,6 @@ public class LameCalculator {
 	public static int divide (int x, int y) {
 		return x/y;
 	}
-
-
-
 
 
 }
