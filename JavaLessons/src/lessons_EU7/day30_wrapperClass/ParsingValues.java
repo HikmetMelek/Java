@@ -10,14 +10,15 @@ public class ParsingValues {
 		int number= Integer.parseInt(numberAsString);
 		System.out.println(number); // output is integer
 		
-		numberAsString= numberAsString + 1;
-		number= number + 1;
+		numberAsString= numberAsString + 1;//20181
+		number= number + 1;//2019
 		System.out.println(numberAsString);
 		System.out.println(number);
 		
 		double number2= Double.parseDouble(numberAsString);
 		System.out.println(number2);
-		
+
+		System.out.println("**************");
 		int i=10;
 		String s= String.valueOf(i);
 		System.out.println(s);   // it will return 10 as string(String.valueOf)

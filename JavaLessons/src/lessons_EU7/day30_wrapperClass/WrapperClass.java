@@ -9,7 +9,7 @@ public class WrapperClass {
 		Integer n3= Integer.valueOf(10);
 		System.out.println(n1);
 		System.out.println(n2); // n2 is a object
-		System.out.println(n3);
+		System.out.println(n3+5);
 		
 		double d1= 44.5;
 		Double d2= new Double("44.5");
@@ -39,7 +39,9 @@ public class WrapperClass {
 		System.out.println(f3);
 		
 		Integer num1= Integer.valueOf(1234);
-		System.out.println(num1);
+		String num5= Integer.toString(num1);
+		System.out.println("num1+4 = " + num1 + 4);
+		System.out.println(num1+50);
 		
 		Boolean bool1= Boolean.valueOf(true);
 		Boolean bool2= Boolean.valueOf("false");

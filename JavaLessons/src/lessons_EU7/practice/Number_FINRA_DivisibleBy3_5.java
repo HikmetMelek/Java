@@ -1,4 +1,10 @@
+package lessons_EU7.practice;
+
 public class Number_FINRA_DivisibleBy3_5 {
+
+    public static void main(String[] args) {
+        FINRA1();
+    }
 
     /*
     Write a function which prints out the numbers from 1 to 30 but
@@ -8,7 +14,7 @@ public class Number_FINRA_DivisibleBy3_5 {
      */
 
 
-    public void FINRA1() {
+    public static void FINRA1() {
 
         String result = "";
 
@@ -20,7 +26,7 @@ public class Number_FINRA_DivisibleBy3_5 {
             } else if (i % 3 == 0) {
                 result += "FIN ";
             } else {
-                result += i + " ";
+                result += i + "  ";
             }
         }
 

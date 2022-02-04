@@ -1,6 +1,10 @@
 package lessons_EU7.practice;
 
 public class String_SumOfAllIntegers {
+    public static void main(String[] args) {
+
+        System.out.println(getSumOfNumbers("12 some text 3 7"));
+    }
 
     /*
     return the sum of all integers found in the parameter String
@@ -13,12 +17,12 @@ public class String_SumOfAllIntegers {
             return the sum of all integers found in the parameter String.
             You can assume that integers are separated from other parts with one or more spaces (' ' symbol).
 
-            For example, s="12 some text 3 7", result: 22 (12+3+7=22)
+            For example, s="12 some text 3 7", result: 22 (12+3+7=22) {12,3,7}
         */
 
         int sum = 0;
 
-        String[] numbers = s.replaceAll("[\\D]+"," ").split(" ");
+        String[] numbers = s.replaceAll("[^0-9]+"," ").split(" ");
 
         for(String each : numbers){
                 sum+=Integer.parseInt(each);
